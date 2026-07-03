@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Store Rating Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application that allows users to submit ratings (1–5) for stores registered on the platform. Built as a full-stack intern coding assessment.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Database:** MySQL
 
-### `npm start`
+## User Roles & Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**System Administrator**
+- Add new stores, normal users, and admin users
+- View dashboard with total users, total stores, and total ratings
+- View and filter lists of users and stores (by name, email, address, role)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Normal User**
+- Sign up and log in
+- Browse and search stores by name or address
+- Submit or update a rating for a store
+- Update their password
 
-### `npm test`
+**Store Owner**
+- Log in and view their store's average rating
+- View the list of users who rated their store
+- Update their password
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Form Validation
 
-### `npm run build`
+- Name: 20–60 characters
+- Address: max 400 characters
+- Password: 8–16 characters, must include one uppercase letter and one special character
+- Email: standard email format
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+On the GitHub repo page, click the green "Code" button and copy the HTTPS URL shown. Then clone it:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/DIVYA-V0111/store-rating-app.git
 
-### `npm run eject`
+## Ports
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend runs on: http://localhost:3000
+Backend runs on: http://localhost:5000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built by Divya.
